@@ -6,6 +6,11 @@
   --div-margin: 10px;
 }
 
+body {
+  background-color: var(--background-color, lightgreen);
+  height: 100vh;
+}
+
 .child {
   background-color: var(--div-background-color);
   color: var(--stylish-text);
