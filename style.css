@@ -2,11 +2,25 @@
   --div-background-color: red;
   --stylish-text: gold;
   --button-padding: 1.34rem;
-  --div-padding: 10px;
+  --div-padding: 20px;
   --div-margin: 10px;
 }
 
 .child {
   background-color: var(--div-background-color);
   color: var(--stylish-text);
+}
+
+.one {
+  --div-background-color: cyan;
+  --stylish-text: black;
+}
+
+.one-one {
+  margin: var(--div-margin);
+  padding: var(--div-padding);
+}
+.one-two {
+  margin: var(--div-margin);
+  padding: var(--div-padding);
 }
